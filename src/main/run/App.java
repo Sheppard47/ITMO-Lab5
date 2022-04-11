@@ -39,8 +39,7 @@ public class App {
             FlatAsker flatAsker = new FlatAsker(userScanner);
             FileManager fileManager = new FileManager(envVariable);
             CollectionManager collectionManager = new CollectionManager(fileManager);
-            CommandManager commandManager = new CommandManager(
-                new HelpCommand(),
+            CommandManager commandManager = new CommandManager(new HelpCommand(),
                 new InfoCommand(collectionManager),
                 new ShowCommand(collectionManager),
                 new PrintAscendingCommand(collectionManager),
@@ -57,7 +56,6 @@ public class App {
                 new MinByTransportCommand(collectionManager),
                 new CountGreaterThanViewTypeCommand(collectionManager));
             Console console = new Console(commandManager, userScanner, flatAsker);
-
             console.interactiveMode();
         }
     }
