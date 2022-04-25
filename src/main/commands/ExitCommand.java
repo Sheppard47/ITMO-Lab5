@@ -2,6 +2,7 @@ package commands;
 
 import exceptions.WrongAmountOfElementsException;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'exit'. Checks for wrong arguments then do nothing.

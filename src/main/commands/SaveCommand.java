@@ -3,6 +3,7 @@ package commands;
 import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'save'. Saves the collection to a file.

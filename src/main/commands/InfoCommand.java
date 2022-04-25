@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'info'. Prints information about the collection.

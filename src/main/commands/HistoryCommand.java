@@ -2,6 +2,7 @@ package commands;
 
 import exceptions.WrongAmountOfElementsException;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'history'. It's here just for logical structure.

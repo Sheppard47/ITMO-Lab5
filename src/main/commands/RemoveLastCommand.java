@@ -5,6 +5,7 @@ import exceptions.WrongAmountOfElementsException;
 import exceptions.CollectionIsEmptyException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'remove_last'. Removes the last element.

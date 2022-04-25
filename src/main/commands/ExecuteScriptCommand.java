@@ -2,6 +2,7 @@ package commands;
 
 import exceptions.WrongAmountOfElementsException;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'execute_script'. Executes scripts from a file. Actually only checks argument and prints messages.

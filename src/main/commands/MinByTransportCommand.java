@@ -4,6 +4,7 @@ import exceptions.CollectionIsEmptyException;
 import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'min_by_transport'. Prints the element of the collection with minimum transport.

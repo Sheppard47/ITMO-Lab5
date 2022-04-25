@@ -1,5 +1,4 @@
 package run;
-
 import java.util.Scanner;
 import commands.RemoveByIdCommand;
 import commands.RemoveLastCommand;
@@ -30,7 +29,7 @@ import utility.FlatAsker;
  */
 public class App {
     public static final String PS1 = "$ ";
-    public static final String PS2 = "> ";
+    public static final String PS2 = "";
 
     public static void main(String[] args) {
         try (Scanner userScanner = new Scanner(System.in)) {

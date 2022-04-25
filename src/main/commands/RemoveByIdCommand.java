@@ -6,6 +6,7 @@ import exceptions.WrongAmountOfElementsException;
 import exceptions.CollectionIsEmptyException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'remove_by_id'. Removes the element by its Id.

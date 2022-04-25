@@ -12,6 +12,7 @@ import exceptions.IncorrectInputInScriptException;
 import exceptions.MustBeNotEmptyException;
 import exceptions.NotInDeclaredLimitsException;
 import run.App;
+import utility.Console;
 
 /**
  * Asks a user a flat's value.
@@ -127,7 +128,7 @@ public class FlatAsker {
         Float y;
         while (true) {
             try {
-                Console.println("Введите координату Y < " + (MAX_Y+1) + ":");
+                Console.println("Введите координату Y <= " + (MAX_Y) + ":");
                 Console.print(App.PS2);
                 strY = userScanner.nextLine().trim();
                 if (fileMode) Console.println(strY);

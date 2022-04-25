@@ -5,6 +5,7 @@ import java.util.List;
 
 import commands.Command;
 import exceptions.HistoryIsEmptyException;
+import utility.Console;
 
 /**
  * Operates the commands.

@@ -8,6 +8,7 @@ import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
 import utility.FlatAsker;
+import commands.AbstractCommand;
 
 /**
  * Command 'add'. Adds a new element to collection.

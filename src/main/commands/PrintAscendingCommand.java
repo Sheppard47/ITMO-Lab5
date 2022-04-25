@@ -3,6 +3,7 @@ package commands;
 import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'print_ascending'. Print all elements of the collection in ascending order.

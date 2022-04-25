@@ -5,6 +5,7 @@ import exceptions.CollectionIsEmptyException;
 import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'count_greater_than_view_type'. Filters the collection by view type.

@@ -3,6 +3,7 @@ package commands;
 import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
+import commands.AbstractCommand;
 
 /**
  * Command 'show'. Shows information about all elements of the collection.

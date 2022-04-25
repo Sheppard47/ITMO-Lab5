@@ -15,6 +15,7 @@ import exceptions.WrongAmountOfElementsException;
 import utility.CollectionManager;
 import utility.Console;
 import utility.FlatAsker;
+import commands.AbstractCommand;
 
 /**
  * Command 'update'. Updates the information about selected flat.

@@ -1,6 +1,11 @@
 package data;
 
 import java.time.LocalDateTime;
+import data.Coordinates;
+import data.Furnish;
+import data.View;
+import data.Transport;
+import data.House;
 
 /**
  * Main character. Is stored in the collection.
@@ -83,7 +88,7 @@ public class Flat implements Comparable<Flat> {
     /**
      * @return View type of the flat.
      */
-    public View getViewType() {
+    public data.View getViewType() {
         return viewType;
     }
 
